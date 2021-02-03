@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/saazante/public_html/
+    - export DEPLOYPATH=/home/saazante/public_html/repositories/bootcamp2020/
     - /bin/cp -R * $DEPLOYPATH
