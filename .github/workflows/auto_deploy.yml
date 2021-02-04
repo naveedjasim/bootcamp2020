@@ -33,4 +33,4 @@ jobs:
       - name: installing surge
         run: npm install --g surge
       - name: deploying using surge
-        run: surge ./ jasimbootcamp2020.surge.sh ${{secrets.SURGE_SECRET}}
+        run: surge ./ jasimbootcamp2020.surge.sh --token ${{ secrets.SURGE_SECRET }}
